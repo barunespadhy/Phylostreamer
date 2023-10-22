@@ -1,0 +1,110 @@
+.nodeCreationArea {
+	background-color: black;
+	height: 100%;
+	color: white;
+}
+
+.nodeID {
+	width: 70%;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: wheat;
+	font-size: 25px;
+	margin-bottom: 7px;
+}
+
+.Button {
+	background-color: black;
+	color: white;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+.Button:hover {
+	background-color: white;
+	color: black;
+	transform: scale(3);
+}
+input,
+textarea,
+select {
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+input,
+select {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	cursor: pointer;
+	border-bottom-color: wheat;
+}
+
+textarea {
+	border-top: solid;
+	border-color: wheat;
+}
+
+label,
+p,
+h3, h5 {
+	color: white;
+}
+
+.createMarginBottom15 {
+	margin-bottom: 15px;
+}
+
+.createMarginBottom25 {
+	margin-bottom: 25px;
+}
+
+.grabber {
+	cursor: move;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	cursor: grab;
+}
+
+.errorText {
+	color: wheat;
+}
+
+.runNodeElementTitle{
+	width: 70%;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: wheat;
+	color: white;
+}
+
+.nodeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.nodeSection {
+  padding: 1em;
+  border: 1px solid #000;
+}
+
+.terminalColor{
+	color: wheat;
+	height: 60vh;
+	width: auto;
+	border: solid;
+	padding: 1em;
+	border-color: wheat;
+	overflow: none;
+	overflow-y: scroll;
+}
+
+.hideElement{
+	display: none;
+}

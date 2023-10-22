@@ -1,0 +1,95 @@
+.container {
+     display: grid;
+     height: 100%;
+}
+.containerDivision{
+     grid-template-columns: 100% 0% 0%;
+     transition: all 0.5s;
+}
+.containerDivisionC1Clicked{
+     grid-template-columns: 50% 50% 0%;
+     transition: all 0.5s;
+}
+.containerDivisionNodeClicked{
+     grid-template-columns: 12% 15% 75%;
+     transition: all 0.5s;
+}
+ .column1, .column2, .column3 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height: 100%;
+}
+
+
+/* Set the opacity of the columns */
+ .column1 {
+     background-color: rgb(8, 8, 8);
+     opacity: 1;
+     color: white;
+}
+ .column2 {
+     align-items: left;
+     background-color: #080808;
+     opacity: 0.90;
+     color: white;
+}
+.column3{
+  background-color: black;
+  opacity: 0.7;
+}
+.startButtonStyle {
+  text-align: center;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  width: auto;
+  border-style: unset;
+  transition: transform 0.5s ease;
+}
+.startButtonStyle:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+a { color: inherit; text-decoration: none;} 
+
+.createNodeDiv{
+  display: block;
+  transition: transform 0.5s ease;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 80%;
+}
+.nodeDiv{
+  position: relative;
+  text-align: center;
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.5s ease;
+}
+.link{
+  font-size: 0px;
+  transition: all 0.3s ease;
+}
+.nodeDiv:hover{
+  background-color: white;
+  color: black;
+}
+
+.linkVisible{
+  font-size: 15px;
+}
+
+.createNodeDiv:hover{
+  background-color: white;
+  color: black;
+}
+
+ .selectedLink{
+    text-align: center;
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+ }
